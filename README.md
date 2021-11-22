@@ -12,7 +12,7 @@ A web app based to find definition of a word using HTML and ES6+.
 
 1. Run - npm install in OnlineDictionary directory.
 2. Run  - npm run start in OnlineDictionary directory.
-
+3. If the browser does not open automatically, open a browser and navigate to http://localhost:1234 to use the app.
 
 ## Simple User Database
 

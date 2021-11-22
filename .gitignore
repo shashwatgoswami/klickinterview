@@ -1,0 +1,15 @@
+.vs
+*.vssscc
+**/obj/
+**/bin/
+*.suo
+*.vspscc
+*.user
+*.dbmdl
+*.jfm
+*.pdb
+**/packages/*
+**/node_modules/*
+**/dist/
+*package-lock.json
+*index.html

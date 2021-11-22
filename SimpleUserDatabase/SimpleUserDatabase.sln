@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klick.SimpleUserDatabase.Models", "Klick.SimpleUserDatabase.Models\Klick.SimpleUserDatabase.Models.csproj", "{A569B21D-2197-4358-8BE0-18931B83CA4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klick.SimpleUserDatabase.DataAccess", "Klick.SimpleUserDatabase.DataAccess\Klick.SimpleUserDatabase.DataAccess.csproj", "{9386B5FD-A237-4BEB-9CCF-8508B698B8C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klick.SimpleUserDatabase.Foundation", "Klick.SimpleUserDatabase.Foundation\Klick.SimpleUserDatabase.Foundation.csproj", "{04E2C51C-155B-4113-AFE0-731FC26323BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klick.SimpleUserDatabase.Service", "Klick.SimpleUserDatabase.Service\Klick.SimpleUserDatabase.Service.csproj", "{166A0D01-E2A1-456C-8487-42CB47B44F24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Klick.SimpleUserDatabase.ConsoleClient", "Klick.SimpleUserDatabase.ConsoleClient\Klick.SimpleUserDatabase.ConsoleClient.csproj", "{EB785B78-5B1C-4553-8288-4788B522D330}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{E1F80E94-A943-4CA0-A7C8-2DE11A19F071}"
+	ProjectSection(SolutionItems) = preProject
+		SchemaScripts.sql = SchemaScripts.sql
+		SeedDataScripts.sql = SeedDataScripts.sql
+		SimpleUserDatabase.bak = SimpleUserDatabase.bak
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A569B21D-2197-4358-8BE0-18931B83CA4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A569B21D-2197-4358-8BE0-18931B83CA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A569B21D-2197-4358-8BE0-18931B83CA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A569B21D-2197-4358-8BE0-18931B83CA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9386B5FD-A237-4BEB-9CCF-8508B698B8C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9386B5FD-A237-4BEB-9CCF-8508B698B8C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9386B5FD-A237-4BEB-9CCF-8508B698B8C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9386B5FD-A237-4BEB-9CCF-8508B698B8C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E2C51C-155B-4113-AFE0-731FC26323BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E2C51C-155B-4113-AFE0-731FC26323BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E2C51C-155B-4113-AFE0-731FC26323BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E2C51C-155B-4113-AFE0-731FC26323BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166A0D01-E2A1-456C-8487-42CB47B44F24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166A0D01-E2A1-456C-8487-42CB47B44F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166A0D01-E2A1-456C-8487-42CB47B44F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166A0D01-E2A1-456C-8487-42CB47B44F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB785B78-5B1C-4553-8288-4788B522D330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB785B78-5B1C-4553-8288-4788B522D330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB785B78-5B1C-4553-8288-4788B522D330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB785B78-5B1C-4553-8288-4788B522D330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {070AD27C-5E25-4F3F-902B-921FA5DA68F2}
+	EndGlobalSection
+EndGlobal

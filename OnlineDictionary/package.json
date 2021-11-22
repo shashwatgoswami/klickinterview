@@ -1,0 +1,23 @@
+{
+  "name": "onlinedictionary",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "gulp build && npm run open",
+    "open": "concurrently \"http-server -a localhost -p 1234\" \"start http://localhost:1234\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^6.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^5.0.0",
+    "http-server": "^14.0.0"
+  }
+}

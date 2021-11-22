@@ -1,0 +1,141 @@
+@mainColor: rgb(57, 80, 122);
+
+body {
+    margin: 0;
+}
+
+.title {
+    color: @mainColor;
+    background-color: whitesmoke;
+    height: 30%;
+    font: 1.5em sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 2vw;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: @mainColor;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search {
+    //position: absolute;
+    left: 10%;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+
+.words {
+    //position: absolute;
+    margin-top: 70px;
+    padding: 10px;
+    width: 100%;
+}
+
+.word {
+    font-size: xxx-large;
+    color: @mainColor;
+}
+
+.partOfSpeech {
+    font-size: large;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.word-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.word-flex-item {
+    padding: 10px;
+    margin: 10px;
+}
+
+.meaning-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.meaning-flex-item {
+    padding: 5px;
+    margin: 5px;
+    font: 1em sans-serif;
+}
+
+.definition-flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.definition-flex-item {
+    padding: 2px;
+    margin: 5px;
+    font: 1em sans-serif;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    height: 250px;
+    width: 400px;
+}
+
+.definition {
+    font-weight: bold;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+@media screen and (max-width:500px){
+    .meaning-flex-container {
+        flex-direction: column;
+    }
+    .definition-flex-container {
+        flex-direction: column;
+    }
+    button {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width:501px) and (max-width:1099px) {
+    .meaning-flex-container {
+        flex-direction: row;
+    }
+    .definition-flex-container {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width:1100px){
+    .meaning-flex-container {
+        flex-direction: row;
+    }
+    .definition-flex-container {
+        flex-direction: row;
+    }
+}
